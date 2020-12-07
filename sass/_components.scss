@@ -1,0 +1,25 @@
+.btn {
+  height: 4rem;
+  padding: 0 2rem;
+  background-color: $color-primary;
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 200;
+  outline: none;
+  border: 0px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.input {
+  height: 5.6rem;
+  background-color: $color-white;
+  border-radius: 0.5rem;
+  border: 0.15rem solid $color-black;
+  padding-left: 1.6rem;
+  &::placeholder {
+    font-family: $font-primary;
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,83 @@
+/*
+  Color Variables
+  ---------------
+*/
+$color-primary: #24843b;
+$color-primary-light: #f8fbf9;
+$color-secondary: #fccb04;
+$color-secondary-dark: #caa203;
+$color-tertiary: #3abf7c;
+$color-grey: #909090;
+$color-white: #ffffff;
+$color-black: #040d06;
+/*
+  Font Variables
+  --------------
+*/
+$font-primary: 'Source Sans Pro', sans-serif;
+/* 
+  Mixins 
+  ------
+*/
+
+/*
+  Mobile Responsiveness
+  ---------------------
+*/
+
+/*
+  Main
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+input:link,
+input:hover,
+input:focus,
+input:active {
+  outline: none;
+  background-color: tranparent;
+}
+
+input::placeholder {
+  font-family: $font-primary;
+}
+
+textarea::placeholder {
+  font-family: $font-primary;
+  font-size: 1.6rem;
+}
+
+button:link,
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+  background-color: tranparent;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //10px/16px = 62.5% 1rem
+}
+
+body {
+  font-family: $font-primary;
+  line-height: 1.6;
+}
