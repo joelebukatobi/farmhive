@@ -112,26 +112,3 @@
     }
   }
 }
-
-.footer {
-  padding: 7.2rem 6.4rem;
-  background-color: $color-primary;
-  display: flex;
-  justify-content: space-between;
-  &__column {
-    width: 23%;
-    &__list {
-      color: $color-white;
-      & > * {
-        margin-bottom: 1.6rem;
-      }
-      &__item {
-        & a {
-          color: $color-white;
-        }
-        list-style: none;
-        font-size: 1.6rem;
-      }
-    }
-  }
-}
